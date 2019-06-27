@@ -18,4 +18,4 @@ cache:
 install:
   - npm ci
 script:
-  - ng test
+  - ng test -watch false -browsers ChromeHeadless
